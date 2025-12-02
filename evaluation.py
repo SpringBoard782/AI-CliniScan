@@ -3,7 +3,7 @@ import json
 from ultralytics import YOLO
 
 # Config
-
+ 
 class Config:
     # resnet50
     RESNET_LOG = "/kaggle/working/training_history.json"
