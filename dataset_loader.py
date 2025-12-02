@@ -17,7 +17,7 @@ class ChestXrayDataset(Dataset):
         self.task = task
         self.img_size = img_size
         self.transform = transform
-
+        
         # Load CSV
         df = pd.read_csv(csv_file)
         self.annotations = df
