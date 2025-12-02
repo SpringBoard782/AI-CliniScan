@@ -2,7 +2,7 @@ import os
 import torch
 import torch.nn as nn
 import torchvision
-from torchvision import transforms, models
+from torchvision import transforms, models 
 from torch.utils.data import Dataset, DataLoader
 import pandas as pd
 import numpy as np
