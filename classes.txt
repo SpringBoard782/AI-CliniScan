@@ -1,0 +1,6 @@
+Finding
+Normal
+Pneumonia
+Tuberculosis
+COVID-19
+Other
