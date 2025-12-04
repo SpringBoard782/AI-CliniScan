@@ -1,0 +1,22 @@
+
+CliniScan – YOLOv8 Lung Abnormality Detection
+
+
+MODEL PERFORMANCE SUMMARY
+---------------------------------
+mAP50:     0.3050
+mAP50-95:  0.1517
+Precision: 0.4058
+Recall:    0.3266
+F1 Score:  0.0000
+
+
+Model used: YOLOv8n with custom dataset
+Image size: 512×512
+Training epochs: 30
+Total training images: 13500
+Total validation images: 1500
+
+
+Evaluation artifacts saved in:
+ /content/drive/MyDrive/CliniScan/6_Evaluation/
