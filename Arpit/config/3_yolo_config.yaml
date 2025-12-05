@@ -1,0 +1,33 @@
+# config/3_yolo_config.yaml
+# Configuration for CliniScan YOLOv8
+
+# Root path to the split data (relative to the training script)
+path: data/processed/yolo_data/ 
+
+# Paths to the image subfolders (relative to the 'path' above)
+train: images/train
+val: images/val
+test: images/test
+
+# Number of classes
+nc: 17 
+
+# Class names
+names:
+  0: 'Aortic enlargement'
+  1: 'Atelectasis'
+  2: 'Calcification'
+  3: 'Cardiomegaly'
+  4: 'Clavicle fracture'
+  5: 'Consolidation'
+  6: 'Edema'
+  7: 'Emphysema'
+  8: 'Fibrosis'
+  9: 'Infiltration'
+  10: 'Lung Nodule'
+  11: 'Mass'
+  12: 'Other lesion'
+  13: 'Pleural effusion'
+  14: 'Pleural thickening'
+  15: 'Pneumothorax'
+  16: 'Pulmonary fibrosis'
